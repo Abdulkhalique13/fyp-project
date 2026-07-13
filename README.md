@@ -58,10 +58,10 @@ The app will open in your browser at `http://localhost:8501`.
 Open `app.py` and edit these constants near the top:
 
 ```python
-DEVELOPER_NAME = "Your Name Here"
-UNIVERSITY_NAME = "Your University Name Here"
-DEPARTMENT_NAME = "Department of Computer Science"
-SUPERVISOR_NAME = "Your Supervisor's Name"
+DEVELOPER_NAME = "Group-14"
+UNIVERSITY_NAME = "Quaid-e-Awam University"
+DEPARTMENT_NAME = "Department of Software Engineering"
+SUPERVISOR_NAME = "Dr. Ali Raza"
 PROJECT_YEAR = "2025 - 2026"
 ```
 
