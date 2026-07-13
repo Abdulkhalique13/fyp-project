@@ -928,14 +928,14 @@ def render_about():
     st.markdown('<div class="custom-card">', unsafe_allow_html=True)
     section_title("👨‍💻 Developer Information")
     st.markdown(
-        f"""
-        - **Developer:** {Group-14}
-        - **University:** {Quest University}
-        - **Department:** {Software Engineering}
-        - **Supervisor:** {Dr Ali Raza}
-        - **Academic Year:** {2025-2026}
-        """
-    )
+    """
+    - **Developer:** {Group-14}
+    - **University:** {Quest University}
+    - **Department:** {Software Engineering}
+    - **Supervisor:** {Dr Ali Raza}
+    - **Academic Year:** {2025-2026}
+    """
+)
     st.markdown("</div>", unsafe_allow_html=True)
 
 
