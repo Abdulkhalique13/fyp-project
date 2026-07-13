@@ -18,10 +18,10 @@ import streamlit as st
 # --------------------------------------------------------------------------
 # EDIT THIS SECTION WITH YOUR OWN DETAILS FOR THE "ABOUT" PAGE
 # --------------------------------------------------------------------------
-DEVELOPER_NAME = "Your Name Here"
-UNIVERSITY_NAME = "Your University Name Here"
-DEPARTMENT_NAME = "Department of Computer Science"
-SUPERVISOR_NAME = "Your Supervisor's Name"
+DEVELOPER_NAME = "Group-14"
+UNIVERSITY_NAME = "Quaid-e-Awam Univerity"
+DEPARTMENT_NAME = "Department of Software Engineering"
+SUPERVISOR_NAME = "Dr. Ali Raza"
 PROJECT_YEAR = "2025 - 2026"
 
 # --------------------------------------------------------------------------
@@ -929,14 +929,13 @@ def render_about():
     section_title("👨‍💻 Developer Information")
     st.markdown(
         f"""
-        - **Developer:** {DEVELOPER_NAME}
-        - **University:** {UNIVERSITY_NAME}
-        - **Department:** {DEPARTMENT_NAME}
-        - **Supervisor:** {SUPERVISOR_NAME}
-        - **Academic Year:** {PROJECT_YEAR}
+        - **Developer:** {Group-14}
+        - **University:** {Quaid-e-Awaz University}
+        - **Department:** {Software Engineering}
+        - **Supervisor:** {Dr Ali Raza}
+        - **Academic Year:** {2025-2026}
         """
     )
-    st.info("💡 Edit the constants at the top of `app.py` to personalize this section with your details.")
     st.markdown("</div>", unsafe_allow_html=True)
 
 
