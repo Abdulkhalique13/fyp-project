@@ -19,7 +19,7 @@ import streamlit as st
 # EDIT THIS SECTION WITH YOUR OWN DETAILS FOR THE "ABOUT" PAGE
 # --------------------------------------------------------------------------
 DEVELOPER_NAME = "Group-14"
-UNIVERSITY_NAME = "Quaid-e-Awam Univerity"
+UNIVERSITY_NAME = "Quest Univerity"
 DEPARTMENT_NAME = "Department of Software Engineering"
 SUPERVISOR_NAME = "Dr. Ali Raza"
 PROJECT_YEAR = "2025 - 2026"
@@ -930,7 +930,7 @@ def render_about():
     st.markdown(
         f"""
         - **Developer:** {Group-14}
-        - **University:** {Quaid-e-Awaz University}
+        - **University:** {Quest University}
         - **Department:** {Software Engineering}
         - **Supervisor:** {Dr Ali Raza}
         - **Academic Year:** {2025-2026}
