@@ -399,11 +399,10 @@ def render_home():
         section_title("🎯 Objectives")
         st.markdown(
             """
-            - Predict whether a customer is likely to **churn** or remain **active**.
-            - Identify key behavioral drivers of churn using feature importance analysis.
-            - Recommend **personalized products** to customers at risk of churning.
-            - Compare multiple ML algorithms and select the best-performing model.
-            - Present insights through a clean, interactive, and professional dashboard.
+            - **Predict customer churn**to identify customers who are likely to stop using the product or service.
+            - **Provide personalized product recommendations** based on customer behavior and preferences to improve engagement and retention.
+            - **Deliver actionable insights** through an interactive dashboard with visualizations to support better business decision-making.
+            
             """
         )
         st.markdown("</div>", unsafe_allow_html=True)
@@ -885,15 +884,17 @@ def render_about():
         """
         1. **Data Cleaning & Preprocessing** — Removing duplicates, handling missing
            values, and engineering RFM (Recency, Frequency, Monetary) based features.
-        2. **Feature Engineering** — Deriving behavioral features such as purchase
+        2. **Class Imbalance Handling**- Applied class balancing techniques (e.g., SMOTE) 
+           to balance the dataset and improve churn prediction performance.
+        3. **Feature Engineering** — Deriving behavioral features such as purchase
            velocity, basket size, purchase consistency, and customer lifetime.
-        3. **Model Training** — Training and evaluating multiple classification
+        4. **Model Training** — Training and evaluating multiple classification
            algorithms to predict churn.
-        4. **Model Selection** — Selecting the best model based on Accuracy,
+        5. **Model Selection** — Selecting the best model based on Accuracy,
            Precision, Recall, F1-Score, and ROC-AUC.
-        5. **Recommendation Engine** — Building an item-based collaborative
+        6. **Recommendation Engine** — Building an item-based collaborative
            filtering model to recommend products to at-risk customers.
-        6. **Deployment** — Serving predictions and recommendations through this
+        7. **Deployment** — Serving predictions and recommendations through this
            interactive Streamlit dashboard.
         """
     )
