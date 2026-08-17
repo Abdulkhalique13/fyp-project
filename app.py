@@ -374,8 +374,8 @@ def render_home():
         """
         <div class="custom-card" style="text-align:center; background: linear-gradient(135deg, #0b2447 0%, #1e40af 100%); color:white;">
             <div style="font-size:42px;">🛍️ 📉</div>
-            <h1 style="color:white; margin-bottom:4px;">Data Driven Customer Churn Prediction</h1>
-            <h2 style="color:#dbe8ff; font-weight:500; margin-top:0;">and Personalized Product Recommendation System</h2>
+            <h1 style="color:white; margin-bottom:4px;">A Data Driven software solution for Customer Retention</h1>
+            <h2 style="color:#dbe8ff; font-weight:500; margin-top:0;">and Product Recommendation System</h2>
         </div>
         """,
         unsafe_allow_html=True,
