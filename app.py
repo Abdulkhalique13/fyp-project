@@ -1,6 +1,6 @@
 # ==========================================================================
-# DATA DRIVEN CUSTOMER CHURN PREDICTION AND PERSONALIZED PRODUCT
-# RECOMMENDATION SYSTEM
+# A DATA DRIVEN SOFTWARE SOLUTION FOR CUSTOMER RETENTION AND PRODUCT
+# RECOMMENDATIONS
 # Final Year Project - Streamlit Web Application
 #
 # This app ONLY loads pre-trained/pre-computed artifacts. No training,
